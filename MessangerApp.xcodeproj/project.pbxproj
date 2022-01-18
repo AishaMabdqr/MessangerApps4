@@ -19,6 +19,7 @@
 		F4908C602796206C00F06E94 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4908C5F2796206C00F06E94 /* ProfileViewController.swift */; };
 		F4908C622796209100F06E94 /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4908C612796209100F06E94 /* NewConversationViewController.swift */; };
 		F4908C6427962A0100F06E94 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4908C6327962A0100F06E94 /* RegistrationViewController.swift */; };
+		F4908C662796337500F06E94 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4908C652796337500F06E94 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		F4908C5F2796206C00F06E94 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		F4908C612796209100F06E94 /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
 		F4908C6327962A0100F06E94 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		F4908C652796337500F06E94 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +68,6 @@
 				12E6705FC760C1653E82169F /* Pods-MessangerApp.debug.xcconfig */,
 				357F0F47096E0DDE25DBC80E /* Pods-MessangerApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -91,6 +92,7 @@
 		F4908C3F2796161D00F06E94 /* MessangerApp */ = {
 			isa = PBXGroup;
 			children = (
+				F4908C652796337500F06E94 /* GoogleService-Info.plist */,
 				F4908C58279619EE00F06E94 /* View Models */,
 				F4908C57279619E600F06E94 /* Models */,
 				F4908C562796199D00F06E94 /* Resources */,
@@ -210,6 +212,7 @@
 				F4908C4D2796162500F06E94 /* LaunchScreen.storyboard in Resources */,
 				F4908C4A2796162500F06E94 /* Assets.xcassets in Resources */,
 				F4908C482796161D00F06E94 /* Main.storyboard in Resources */,
+				F4908C662796337500F06E94 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
